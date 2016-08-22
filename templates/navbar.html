@@ -1,0 +1,55 @@
+
+{% load static from staticfiles %}
+
+	<div class="stickyMenu">
+	<div class="stickyMenuContent">
+		<div class="stickyMenuLogo">
+		<a href="http://bikeshed.in"><img src="{% static 'images/logo.png' %}"/></a>
+		</div>
+		<div class="divisionTwoContentMenu">
+        <a class="homeLink" href="#">Home</a>
+        <a href="#" class="panel-button" data-panel="panel1">Costing</a>
+        <a href="#" data-featherlight="#fl3">Serving in</a>
+        <a href="#" class="contactusClick">Contact</a>
+        </div>
+
+       
+
+		<div class="stickyMenuMenu">
+
+
+
+
+
+
+
+
+
+			{% if not request.user.is_authenticated %}
+                    <span class="loginLinkOne">
+                    <a href="{% url 'account_signup' %}"><img style="margin-right: 6px; margin-top: -6px;" src="{% static 'images/lock.png' %}"/>Sign up</a>
+                     </span>
+			 <span class="servicesLink">
+                    <a href="{% url 'account_login' %}"><img style="margin-right: 6px; margin-top: -6px;" src="{% static 'images/lock.png' %}"/>Log in</a>
+                </span>
+
+
+
+			 {% else %}
+                    <span class="loginLinkOne">
+						 <div class="dropdown">
+							<button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Menu
+							<span class="caret"></span></button>
+							<ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+							  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">HTML</a></li>
+							  <li role="presentation"><a href="{% url 'account_logout' %}"><img style="margin-right: 6px; margin-top: -6px;" src="{% static 'images/lock.png' %}"/>Log out</a></li>
+							  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">JavaScript</a></li>
+							
+							</ul>
+						  </div>
+
+            	</span>
+			{% endif %}
+		</div> 
+	</div>
+</div>

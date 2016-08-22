@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+{% load static from staticfiles %}
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate, post-check=0, pre-check=0" /> 
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	{% include 'css.html' %}
+
+
+
+</head>
+<body>
+
+<div class="page-wrapper">
+{% include 'navbar.html' %}
+<title>bikeShed</title>
+<div class="divisionOne">
+	<div class="divisionOneContent">
+		<div class="leftSideContentOne">
+			<img class="leftSideContentOneImg" id="Bike1" src="{% static 'images/Bike1.png' %}"/>
+		</div>
+		<div class="rightSideContentOne">
+			<h3>Trusted by bike owners in over 70 locations</h3>
+			<p>150+ Services | All major makes and models</p>
+			<div class="loginWelcome scheduleServiceButton">
+				<a href="http://blog.mozillaindia.org/1698"><hello>Schedule Service</hello></a>
+			</div>
+		</div>
+	</div>
+	<div class="scrollerImage">
+	<a href="#" class="scrollerImageGif"><img src="{% static 'images/ScrollerGif.gif' %}"/></a>
+	</div>
+</div>
+
+<div class="divisionTwo">
+	<div class="divisionTwoContent">
+	<a class="homeLink" class="homeClick" href="#">Home</a>
+	<a href="#" class="panel-button" data-panel="panel1">Costing</a>
+	<a href="#" data-featherlight="#fl3">Serving in</a>
+	<a href="#" class="contactusClick">Contact</a>
+	</div>
+</div>
+
+	<div id="panel1">
+       <!--<span data-panel="panel1" class="panel-button"></span>-->
+        <!--<div id="panel1-inner"></div>-->
+       <center><h1>Our Costing</h1></center>
+    </div>
+
+<div class="divisionFive">
+	<div class="divisionFiveContent">
+	<div class="divisionFiveContentTitle">
+	<h2>Get over 150+ bike repair and maintainance services at your convenience </h2>
+	</div>
+	<div class="easyThree generalService">
+	<img src="{% static 'images/GeneralServices.png' %}"/>
+	<h3>General Service</h3>
+	<hr class="generalServiceHr"/>
+	</div>
+	<div class="walletThree minorRepair">
+	<img src="{% static 'images/MinorRepair.png' %}"/>
+	<h3>Minor Repair</h3>
+	<hr class="minorRepairHr"/>
+	</div>
+	<div class="happyThree majorRepair">
+	<img src="{% static 'images/MajorRepair.png' %}"/>
+	<h3>Major Repair</h3>
+	<hr class="majorRepairHr"/>
+	</div>
+	</div>
+</div>
+<div class="divisionFour">
+	<div class="divisionFourContent">
+	<h2>Life's too short to spend it at repair shop</h2>
+	<h4>Enjoy convenient two wheeler repair and maintainence services at your home or office. It's as easy as 1-2-3.</h4>
+	<div class="easyThree">
+	<img src="{% static 'images/SelectSrvices.png' %}"/><hr/>
+	<h3>Select the service</h3>
+	<p>Select the vehicle, enter the details and tell us what your vehicle needs or ask for a diagnostic.</p>
+	</div>
+	<div class="walletThree">
+	<img src="{% static 'images/BookAppointment.png' %}"/><hr/>
+	<h3>Book Appointment</h3>
+	<p>Provide your home or office address Tell us when to meet you there.</p>
+	</div>
+	<div class="happyThree">
+	<img src="{% static 'images/GetYourBikeFixed.png' %}"/>
+	<h3>Get your bike fixed</h3>
+	<p>That's it. No more waiting in repair shops - our mechanics come to you.</p>
+	</div>
+	</div>
+</div>
+
+{% include 'modal.html' %}
+
+
+
+<iframe class="lightbox" src="/map" width="500" height="500" id="fl3" style="border:none;" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+
+{% include 'companylogos.html' %}
+
+	<div class="divisionSeven">
+		<div class="divisionSevenContent">
+			<div class="leftSideContentOneOne">
+				<img class="leftSideContentOneImg" src="{% static 'images/Charminar.png' %}"/>
+			</div>
+			<div class="rightSideContentOne">
+				<h3>Trusted By Bike Owners</h3>
+				<h3 style="margin-top: 0px; color: #FE0405;">150+ Services | All major makes and models</h3>
+	<h4 style="margin-top: 0px; color: #FFF; font-weight: 300;">Our Services are available in MADHAPUR | GACHIBOWLI | HITECH CITY</h4>
+			</div>
+		</div>
+	</div>
+	<div class="divisionEight">
+		<div class="divisionEightContent">
+			<div class="divisionEightContentTitle">
+			<h2>How can we help? </h2>
+			<h4>Our service team is available 7 days a week, from 9 AM to 8 PM IST.</h4>
+			<h2 style="color: #E10F2B;font-size: 20px;"> +9140 32523252 <span class="emailAddressInfo">services@bikeshed.in</span></h2>
+			</div>
+
+		</div>
+	</div>
+</div>
+{% include 'footer.html' %}
+
+{% include 'script.html' %}
+
+
+</body>
+
+

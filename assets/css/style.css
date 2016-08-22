@@ -1,0 +1,1045 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+body {
+	font-family: open sans, 'Source Sans Pro', sans-serif;
+	background: #09161E;
+	display: none;
+}
+.loginLogo{
+	text-align: center;
+}
+.loginLogo img{
+	width: 220px;
+	padding-top: 20px;
+	margin-top: 38px;
+}
+.loginWelcome {
+overflow: hidden;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    margin-top: 26px;
+    font-weight: 300;
+    width: 370px;
+    height: 45px;
+    line-height: 45px;
+    margin: 0 auto;
+}
+.loginWelcome:before {
+	content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 20%;
+	background: #09161E; /* Old browsers */
+	background: -moz-linear-gradient(left, #09161E 0%, rgba(105, 110, 113, 0.75) 60%, rgb(81, 89, 95) 60%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#09161E), color-stop(60%,rgba(105, 110, 113, 0.75)), color-stop(60%,rgb(81, 89, 95))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, #09161E 0%,rgba(105, 110, 113, 0.75) 60%,rgb(81, 89, 95) 60%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, #09161E 0%,rgba(105, 110, 113, 0.75) 60%,rgb(81, 89, 95) 60%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, #09161E 0%,rgba(105, 110, 113, 0.75) 60%,rgb(81, 89, 95) 60%); /* IE10+ */
+	background: linear-gradient(to right, #09161E 0%,rgba(105, 110, 113, 0.75) 60%,rgb(81, 89, 95) 60%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#09161E', endColorstr='rgb(81, 89, 95)',GradientType=1 ); /* IE6-9 */
+}
+.loginWelcome:after {
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 20%;
+	background: #5A6063; /* Old browsers */
+	background: -moz-linear-gradient(left, #5A6063 0%, #5C6569 30%, #0A1F2B 83%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#5A6063), color-stop(30%,#5C6569), color-stop(83%,#0A1F2B)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, #5A6063 0%,#5C6569 30%,#0A1F2B 83%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, #5A6063 0%,#5C6569 30%,#0A1F2B 83%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, #5A6063 0%,#5C6569 30%,#0A1F2B 83%); /* IE10+ */
+	background: linear-gradient(to right, #5A6063 0%,#5C6569 30%,#0A1F2B 83%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5A6063', endColorstr='#0A1F2B',GradientType=1 ); /* IE6-9 */
+}
+.loginWelcome:before {
+    right: 0.5em;
+    margin-left: -30%;
+}
+.loginWelcome:after {
+    left: 0.5em;
+    margin-right: -30%;
+}
+.loginFormContainer{
+	text-align: center;
+    margin-top: 14px;
+}
+.formInputGroup label{
+	margin-left: -151px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+	display: block;
+}
+.formInputGroup input, .formInputGroup select{
+	width: 336px;
+    height: 38px;
+    line-height: 38px;
+	padding-left: 14px;
+	background: #ECEEEF;
+	border: 0px;
+	font-size: 20px;
+	outline: 0;
+	
+}
+.formInputGroup button{
+	width: 336px !important;
+    height: 38px !important;
+    line-height: 38px !important;
+	padding-left: 14px !important;
+	background: #ECEEEF;
+	border: 0px !important;
+	font-size: 20px !important;
+	outline: 0 !important;
+}
+.formInputGroup input::-webkit-input-placeholder{
+	font-size: 18px;
+	color: #B9BCBD;
+}
+.formInputGroup input:-moz-placeholder{
+	font-size: 18px;
+	color: #B9BCBD;
+}
+.formInputGroup input::-moz-placeholder{
+	font-size: 18px;
+	color: #B9BCBD;
+}
+.formInputGroup input:-ms-input-placeholder{
+	font-size: 18px;
+	color: #B9BCBD;
+}
+.labelForPassword{
+	margin-left: -136px !important;
+}
+.passwordGroup{
+	margin-top: 13px;
+}
+.forgotPasswordLink{
+	margin-left: 234px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.forgotPasswordLink a{
+	color: #F74012;
+	text-decoration: none !important;
+}
+.submitLogin{
+	background: #f81327 !important; /* Old browsers */
+	background: -moz-linear-gradient(left, #f81327 0%, #f72121 39%, #f73915 71%, #f74a0e 100%) !important; /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#f81327), color-stop(39%,#f72121), color-stop(71%,#f73915), color-stop(100%,#f74a0e)) !important; /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, #f81327 0%,#f72121 39%,#f73915 71%,#f74a0e 100%) !important; /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, #f81327 0%,#f72121 39%,#f73915 71%,#f74a0e 100%) !important; /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, #f81327 0%,#f72121 39%,#f73915 71%,#f74a0e 100%) !important; /* IE10+ */
+	background: linear-gradient(to right, #f81327 0%,#f72121 39%,#f73915 71%,#f74a0e 100%) !important; /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f81327', endColorstr='#f74a0e',GradientType=1 ) !important; /* IE6-9 */
+	color: #fff;
+	border: 0px !important;
+}
+.submitLogin:focus{
+	border: 0px !important;
+}
+.loginSignUpGroup a{
+	width: 336px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    text-decoration: none;
+    background: #01EEC2;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 24px;
+}
+.socialLoginButtons{
+	margin-top: 16px;
+	text-align: center;
+}
+.facebookLoginButton{
+	width: 162px;
+    height: 36px;
+    margin-right: 5px;
+	font-size: 20px;
+	background: #3B5A9A;
+	color: #fff;
+	border: 0px;
+	outline: 0;
+}
+.googleLoginButton{
+	width: 162px;
+    height: 36px;
+    margin-left: 5px;
+	font-size: 20px;
+	background: #DD5044;
+	color: #fff;
+	border: 0px;
+	outline: 0;
+}
+.loginSignInGroup{
+	background: #f81327 !important; /* Old browsers */
+	background: -moz-linear-gradient(left, #f81327 0%, #f72121 39%, #f73915 71%, #f74a0e 100%) !important; /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#f81327), color-stop(39%,#f72121), color-stop(71%,#f73915), color-stop(100%,#f74a0e)) !important; /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, #f81327 0%,#f72121 39%,#f73915 71%,#f74a0e 100%) !important; /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, #f81327 0%,#f72121 39%,#f73915 71%,#f74a0e 100%) !important; /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, #f81327 0%,#f72121 39%,#f73915 71%,#f74a0e 100%) !important; /* IE10+ */
+	background: linear-gradient(to right, #f81327 0%,#f72121 39%,#f73915 71%,#f74a0e 100%) !important; /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f81327', endColorstr='#f74a0e',GradientType=1 ) !important; /* IE6-9 */
+	color: #fff;
+	border: 0px !important;
+	width: 336px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    text-decoration: none;
+    background: #01EEC2;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 24px;
+}
+.loginSignInGroup a{
+	color: #fff;
+	text-decoration: none;
+}
+.labelForRepeatPassword{
+	margin-left: -110px !important;
+}
+.labelForMobile{
+	margin-left: -146px !important;
+}
+.labelForEmail{
+	margin-left: -150px !important;
+}
+.labelForLastName{
+	margin-left: -133px !important;
+}
+.labelForFirstName{
+	margin-left: -132px !important;
+}
+.signUpSubmitGroup{
+	margin-top: 37px;
+}
+.submitSignUp{
+	background: #01EEC2 !important;
+    color: #fff;
+}
+.forgotPasswordSubmit, .stepTwoSubmit, .resetPasswordSubmit, .changePasswordSubmit, .editProfileSubmit, .mobileVerificationCodeSubmit, .resendVerificationCode{
+	background: #F8321A !important;
+    color: #fff;
+	margin-top: 21px;
+}
+.bookingWelcome{
+	text-align: center;
+    margin-top: 22px;
+    color: #fff;
+    font-size: 25px;
+}
+.bookingFormContainer{
+	text-align: center;
+    margin-top: 14px;
+    width: 718px;
+    margin: 0 auto;
+}
+.floatleftbookinputs {
+	float: left;
+	margin-left: 15px;
+}
+.fourRowsfields{
+	width: 162px !Important;
+}
+.labelForBrand{
+	margin-left: -62px !important;
+}
+.labelForBikeYear{
+	margin-left: -65px !important;
+}
+.labelForBikeEngineNumber{
+	margin-left: -61px !important;
+}
+.labelForBikeServiceId{
+	margin-left: -42px !important;
+}
+.firstQuestionBooking{
+	color: #01EEC2;
+    text-align: left;
+    margin-top: 38px;
+    font-size: 19px;
+    margin-left: 13px;
+}
+.secondQuestionBooking{
+	color: #01EEC2;
+    text-align: left;
+    margin-top: 20px;
+    font-size: 19px;
+    margin-left: 13px;
+    display: inline-table;
+    float: left;
+    width: 626px;
+}
+.threeRowsfields{
+	width: 424px !Important;
+}
+.serviceNeeded {
+	height: 16px !important;
+    text-align: left;
+    float: left;
+    margin-left: -203px !Important;
+}
+.labelForServiceNeeded{
+	margin-top: -3px;
+    position: absolute;
+    margin-left: 85px !important;
+}
+.horizotalLine {
+	width: 689px;
+    background: #01E799;
+    color: #06E7C2;
+    border-top: 1px solid #06E7C2;
+    margin-top: 18px;
+    float: left;
+    margin-left: 16px;
+}
+.verticalLine{
+	width: 2px;
+    height: 375px;
+    background: #01E799;
+    color: #06E7C2;
+    border-top: 1px solid #06E7C2;
+    margin-top: 18px;
+    float: left;
+    margin-left: -33px;
+}
+.secondStepMiddle{
+	margin-top: -20px;
+    float: left;
+}
+.bikeServicesRepairs{
+	width: 290px !important;
+}
+.describeTheProblem{
+	width: 290px !important;
+}
+.dateTimeDividerOr{
+	width: 90px !important;
+    height: 16px !important;
+    text-align: left;
+    float: left;
+    margin-top: 46px;
+    text-align: center;
+    color: #fff;
+    font-size: 21px;
+}
+.labelServicesRepairs{
+	margin-left: -90px !important;
+}
+.labelDescribeTheProblem{
+	margin-left: -75px !important;
+}
+.secondStepLast{
+	width: 625px !important;
+	float: left;
+}
+.labelForScheduleDate{
+	margin-left: -33px !important;
+}
+.labelForScheduleTime{
+	margin-left: -32px !important;
+}
+.threeeRowsfields{
+	width: 218px !Important;
+}
+.labelForBookingName{
+	margin-left: -90px !important;
+}
+.labelForBookingAddress{
+	margin-left: -82px !important;
+}
+.labelForBookingPincode{
+	margin-left: -82px !important;
+}
+.labelForBookingMobile{
+	margin-left: -87px !important;
+}
+.labelForBookingEmail{
+	margin-left: -91px !important;
+}
+.bookingSubmit{
+	margin-top: 30px;
+    width: 685px !important;
+	color: #fff;
+	background: #f81327 !important;
+    background: -moz-linear-gradient(left, #f81327 0%, #f72121 39%, #f73915 71%, #f74a0e 100%) !important;
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#f81327), color-stop(39%,#f72121), color-stop(71%,#f73915), color-stop(100%,#f74a0e)) !important;
+    background: -webkit-linear-gradient(left, #f81327 0%,#f72121 39%,#f73915 71%,#f74a0e 100%) !important;
+    background: -o-linear-gradient(left, #f81327 0%,#f72121 39%,#f73915 71%,#f74a0e 100%) !important;
+    background: -ms-linear-gradient(left, #f81327 0%,#f72121 39%,#f73915 71%,#f74a0e 100%) !important;
+    background: linear-gradient(to right, #f81327 0%,#f72121 39%,#f73915 71%,#f74a0e 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f81327', endColorstr='#f74a0e',GradientType=1 ) !important;
+}
+.bulletRound{
+	background: #01EEB7;
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-top: 4px;
+    margin-left: -43px;
+    color: #01EEB7;
+    border-radius: 20px;
+}
+.labelForPasswordOld{
+	margin-left: -124px !important;
+}
+.labelForPasswordNew{
+	margin-left: -120px !important;
+}
+.labelForPasswordNewRepeat{
+	margin-left: -95px !important;
+}
+.labelForProfileUpdateFirstName{
+	margin-left: -74px !important;
+}
+.labelForProfileUpdateLastName{
+	margin-left: -75px !important;
+}
+.labelForProfileUpdateEmail{
+	margin-left: -91px !important;
+}
+.labelForProfileUpdateMobile{
+	margin-left: -88px !important;
+}
+.labelForProfileUpdateAddress{
+	margin-left: -82px !important;
+}
+.labelForProfileUpdatePincode{
+	margin-left: -83px !important;
+}
+.myBookingsContainer{
+	text-align: center;
+    width: 840px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.labelForMobileVerificationCode{
+	margin-left: -89px !important;
+}
+.error {
+	display: block;
+    color: #F73914;
+}
+.mivoAjaxLoading{
+	background: rgba(161, 38, 13, 0.55);;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: block;
+    float: left;
+    z-index: 999999;
+    top: 0;
+	display: none;
+}
+.mivoAjaxLoadingContent{
+	text-align: center;
+    font-size: 30px;
+    color: #fff;
+    top: 25%;
+    bottom: 25%;
+    margin-top: 25%;
+    margin-bottom: 25%;
+}
+.mivoAjaxResult{
+	bottom: 0;
+    right: 0;
+    color: #fff;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    float: right;
+    background: #F73816;
+    padding: 10px;
+    position: fixed;
+   
+    height: auto;
+	word-wrap: break-word;
+    border: 1px solid #01EEC2;
+    box-shadow: 0px 4px 24px 0px rgba(1, 238, 194, 0.51);
+    border-radius: 1px;
+	z-index: 99999999;
+	display: none;
+	text-align: center;
+	display: none;
+}
+.loginSignInGroup button {
+	width: 336px !important;
+    height: 38px !important;
+    line-height: 38px !important;
+    padding-left: 14px !important;
+    background: #F8321A !important;
+    border: 0px !important;
+    font-size: 20px !important;
+    outline: 0 !important;
+	
+}
+.emailVerifyContent{
+	text-align: center;
+    color: #fff;
+    font-size: 30px;
+    top: 25%;
+    margin-top: 15%;
+}
+.labelForCodeResetPassword{
+	margin-left: -64px !important;
+}
+.requestNewValidationCode a{
+	color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+}
+.emailVerifyPending, .mobileVerifyPending{
+	text-align: center;
+    font-size: 17px;
+    margin-top: 10px;
+}
+.emailVerifyPending a,  .mobileVerifyPending a{
+	color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.stickyMenu{
+	width: 100%;
+    height: 42px;
+    position: fixed;
+    background: #09161E;
+    box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.48);
+}
+.stickyMenuContent{
+	margin-left: 2%;
+    margin-right: 2%;
+}
+.stickyMenuLogo img{
+	width: 152px;
+    padding-top: 3px;
+}
+.stickyMenuLogo{
+	float: left;
+}
+.stickyMenuMenu{
+	    float: right;
+    z-index: 99999999;
+    position: relative;
+}
+.loginLink a, .loginLinkOne a{
+    text-align: center;
+    background: #fff;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 8px;
+    padding-top: 17px;
+	font-size: 25px;
+    text-decoration: none;
+    color: #09161E;
+	font-weight: 300;
+}
+}
+.loginLinkImage{
+	margin-right: 6px;
+    margin-top: -6px;
+}
+.servicesLink a{
+    text-align: center;
+    background: #E10F2B;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 8px;
+    padding-top: 17px;
+	font-size: 25px;
+    text-decoration: none;
+    color: #fff;
+	font-weight: 300;
+	margin-left: -3px;
+}
+.profileLoggedIn{
+	max-width: 200px;
+    background: #fff;
+	display: none;
+}
+.profileLoggedIn li{
+	list-style: none;
+    text-align: center;
+    font-size: 18px;
+    color: #000;
+    border-bottom: 1px solid #09161E;
+	padding: 9px;
+}
+.profileLoggedIn a{
+	text-decoration: none;
+	color: #09161E;
+}
+.divisionOne{
+	width: 100%;
+    height: 600px;
+    background: #09161E;
+}
+.divisionOneContent{
+	width: 1030px;
+    height: 450px;
+    background: #09161E;
+	margin: 0 auto;
+}
+.leftSideContentOne img {
+	width: 500px;
+	margin-top: 20px;
+}
+.leftSideContentOne{
+	width: 550px;
+    float: left;
+}
+.rightSideContentOne{
+	width: 425px;
+    float: left;
+}
+.rightSideContentOne h3{
+margin-top: 204px;
+    font-size: 35px;
+    text-align: center;
+    color: #fff;
+font-weight: 300;
+}
+.divisionTwoContentMenu{
+    text-align: center; 
+    margin-left: -36px;
+    width: 100%;
+    position: absolute;
+display: none;
+}
+.divisionTwoContentMenu a {
+    font-size: 20px;
+    color: #fff;
+    padding-top: 0px;
+    margin-top: 9px;
+    line-height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    text-decoration: none;
+    font-weight: 300;
+}
+.generalServiceHr, .minorRepairHr, .majorRepairHr {
+display: none;
+}
+.rightSideContentOne p{
+	text-align: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+}
+.scheduleServiceButton{
+	margin-top: 50px !important;
+}
+.scheduleServiceButton hello {
+    padding: 20px;
+    z-index: 999999;
+    border: 2px solid #A8070C;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: #A8070C;
+}
+.scheduleServiceButton hello:hover {
+	background: #f81327 !important;
+    background: -moz-linear-gradient(left, #f81327 0%, #f72121 39%, #f73915 71%, #f74a0e 100%) !important;
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#f81327), color-stop(39%,#f72121), color-stop(71%,#f73915), color-stop(100%,#f74a0e)) !important;
+    background: -webkit-linear-gradient(left, #f81327 0%,#f72121 39%,#f73915 71%,#f74a0e 100%) !important;
+    background: -o-linear-gradient(left, #f81327 0%,#f72121 39%,#f73915 71%,#f74a0e 100%) !important;
+    background: -ms-linear-gradient(left, #f81327 0%,#f72121 39%,#f73915 71%,#f74a0e 100%) !important;
+    background: linear-gradient(to right, #f81327 0%,#f72121 39%,#f73915 71%,#f74a0e 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f81327', endColorstr='#f74a0e',GradientType=1 ) !important;
+    padding: 20px;
+ color: #fff;
+}
+.scheduleServiceButton a {
+	text-decoration: none;
+    color: #fff;
+}
+.scrollerImage{
+	text-align: center;
+    margin-top: 50px;
+}
+.divisionTwo{
+	width: 100%;
+    height: 50px;
+    background: #09161E;
+    border-top: 1px solid #01EEC2;
+}
+.divisionTwoContent{
+	width: 1030px;
+    height: 50px;
+    background: #09161E;
+	margin: 0 auto;
+	text-align: center;
+}
+.divisionTwoContent a{
+	font-size: 20px;
+    color: #fff;
+    padding-top: 0px;
+    margin-top: 9px;
+    line-height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    text-decoration: none;
+	font-weight: 300;
+}
+.homeLink{
+	 border-bottom: 1px solid #FE0304;
+}
+.divisionThree{
+	width: 100%;
+    height: 500px;
+    background: #fff;
+}
+.divisionThreeContent{
+	width: 1030px;
+    height: 500px;
+    background: #fff;
+	margin: 0 auto;
+	text-align: center;
+}
+.easyThree{
+	width: 343px;
+	float: left;
+	text-align: center;
+}
+.easyThree img{
+	margin-top: 70px;
+}
+.walletThree{
+	width: 343px;
+	float: left;
+	text-align: center;
+}
+.walletThree img{
+	margin-top: 70px;
+}
+.happyThree{
+	width: 343px;
+	float: left;
+	text-align: center;
+}
+.happyThree img{
+	margin-top: 70px;
+}
+.divisionThreeContent hr{
+	width: 100px;
+    border: 1px solid #E2251D;
+}
+.divisionThreeContent p{
+	font-size: 15px;
+    font-weight: 600;
+	padding-left: 20px;
+    padding-right: 20px;
+}
+.divisionFour{
+	width: 100%;
+    height: 500px;
+    background: #09161E;
+}
+.divisionFourContent{
+	width: 1030px;
+    height: 500px;
+    background: #09161E;
+	margin: 0 auto;
+	text-align: center;
+}
+.divisionFourContent hr{
+	width: 177px;
+    border: 1px solid #E2251D;
+    margin-left: 253px;
+    margin-top: -89px;
+    position: absolute;
+}
+.divisionFourContent p{
+	    font-size: 16px;
+    font-weight: 300;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+}
+.divisionFourContent h3{
+	color: #F8261F;
+    font-weight: 300;
+    font-size: 25px;
+}
+.divisionFourContent h2{
+	font-size: 40px;
+font-weight : 300;
+    color: #fff;
+    font-weight: 300;
+	margin-top: 62px;
+}
+.divisionFourContent h4{
+	color: #fff;
+    font-size: 16px;
+}
+.generalService h3, .minorRepair h3, .majorRepair h3{
+font-weight: 300;
+    color: #FA363F;
+}
+.divisionFive{
+	width: 100%;
+    height: 550px;
+    background: #EFEFEF;
+}
+.divisionFiveContent{
+	width: 1030px;
+    height: 550px;
+    background: #EFEFEF;
+	margin: 0 auto;
+	text-align: center;
+}
+.divisionFiveContent h2{
+	font-size: 40px;
+    font-weight: 300;
+	margin-top: 62px;
+	display: inline-block;
+	width: 822px;
+}
+.divisionFiveContent h4{
+    font-size: 14px;
+}
+.divisionFiveContent hr{
+	width: 100px;
+    border: 1px solid #E2251D;
+}
+.divisionSix{
+	width: 100%;
+    height: 600px;
+    background: #fff;
+}
+.divisionSixContent{
+	width: 1030px;
+    height: 600px;
+    background: #fff;
+	margin: 0 auto;
+	text-align: center;
+}
+.divisionSixContent h2{
+	font-size: 40px;
+    font-weight: 300;
+	margin-top: 62px;
+	display: inline-block;
+	width: 822px;
+}
+.divisionSixContent h4{
+	color: #000;
+    font-size: 16px;
+	margin-bottom: 25px;
+}
+.bikeBrands{
+	width: 204px;
+	height: 180px;
+	text-align: center;
+	float: left;
+border: 1px solid #DCDCDC;
+}
+.bajajImg{
+	width: 177px;
+    padding: 42px;
+}
+.heroImg{
+width: 239px;
+    padding: 42px;
+    margin-top: 0px;
+    margin-left: -15px;
+}
+.enfieldImg{
+    width: 239px;
+    margin-top: 20px;
+    margin-left: -15px;
+    padding: 42px;
+}
+.hondaImg{
+    width: 201px;
+    margin-top: -4px;
+    margin-left: 2px;
+    padding: 42px;
+}
+.ktmImg{
+    width: 214px;
+    margin-top: 20px;
+    margin-left: -4px;
+    padding: 42px;
+}
+.mahindraImg{
+    width: 220px;
+    margin-top: 12px;
+    margin-left: -7px;
+    padding: 42px;
+}
+.suzukiImg{
+    width: 239px;
+    margin-top: 33px;
+    margin-left: -19px;
+    padding: 42px;
+}
+.tvsImg{
+width: 239px;
+    margin-top: 31px;
+    margin-left: -17px;
+    padding: 42px;
+}
+.vespaImg{
+    width: 222px;
+    margin-top: 12px;
+    margin-left: -9px;
+    padding: 42px;
+}
+.yamahaImg{
+    width: 239px;
+    margin-top: 32px;
+    margin-left: -20px;
+    padding: 42px;
+}
+.divisionSeven{
+	width: 100%;
+    height: 600px;
+    background: #09161E;
+}
+.divisionSevenContent{
+	width: 1030px;
+    height: 600px;
+    background: #09161E;
+	margin: 0 auto;
+	text-align: center;
+}
+.leftSideContentOneOne {
+	margin-top: 58px;
+    width: 20px;
+}
+.leftSideContentOneOne img{
+	width: 1134px;
+    margin-left: -110px;
+}
+.divisionSevenContent .rightSideContentOne{
+	float: right;
+    margin-top: -582px;
+	z-index: 99999;
+	font-size: 28px !important;
+}
+.divisionSevenContent .rightSideContentOne h3{
+	font-size: 40px !important;
+}
+.divisionEight{
+	width: 100%;
+    height: 300px;
+    background: #FFF;
+}
+.divisionEightContent{
+	width: 1030px;
+    height: 300px;
+    background: #FFF;
+	margin: 0 auto;
+	text-align: center;
+}
+.divisionEightContent h2{
+	font-size: 40px;
+    font-weight: 300;
+	margin-top: 62px;
+	display: inline-block;
+	width: 822px;
+}
+.emailAddressInfo{
+	margin-left: 90px;
+}
+.divisionNine{
+	width: 100%;
+    height: 300px;
+    background: #09161E;
+}
+.divisionNineContent{
+	width: 1030px;
+    height: 300px;
+    background: #09161E;
+	margin: 0 auto;
+	text-align: center;
+}
+.divisionNineContent h3{
+	    margin-top: 75px;
+    color: #01EEC2;
+    font-weight: 300;
+    font-size: 20px;
+}
+.divisionNineContent .easyThree li{
+	    list-style: none;
+    font-size: 15px;
+    text-align: left;
+    width: 82px;
+    margin: 0 auto;
+    font-weight: 300;
+}
+.divisionNineContent .easyThree li a{
+	color: #fff;
+    list-style: none;
+    text-decoration: none;
+}
+.divisionNineContent .walletThree li{
+	list-style: none;
+    font-size: 15px;
+    text-align: left;
+    width: 121px;
+    margin: 0 auto;
+font-weight: 300;
+}
+.divisionNineContent .walletThree li a{
+	color: #fff;
+    list-style: none;
+    text-decoration: none;
+}
+.divisionNineContent .happyThree li{
+	list-style: none;
+    font-size: 15px;
+    text-align: left;
+    width: 204px;
+    margin: 0 auto;
+font-weight: 300;
+}
+.divisionNineContent .happyThree li a{
+	color: #fff;
+    list-style: none;
+    text-decoration: none;
+}
+.divisionNine h5{
+	    text-align: center;
+    color: #01EEC2;
+    font-size: 10px;
+    font-weight: 300;
+}
+
+
+
+	@media all {
+				.lightbox { display: none; }
+
+
+
+				/* override default feather style... */
+				.fixwidth {
+					background: rgba(256,256,256, 0.8);
+				}
+				.fixwidth .featherlight-content {
+					width: 500px;
+					padding: 25px;
+					color: #fff;
+					background: #111;
+				}
+				.fixwidth .featherlight-close {
+					color: #fff;
+					background: #333;
+				}
+
+			}
